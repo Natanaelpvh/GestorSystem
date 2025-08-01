@@ -1,4 +1,3 @@
-
 # GestorSystem
 
 ![PHP](https://img.shields.io/badge/PHP-8.1-blue)
@@ -25,6 +24,12 @@ Projetado para oferecer uma estrutura robusta, flexível e escalável para desen
 
 ---
 
+## Suporte Gemini
+
+Este projeto conta com o auxílio do **Gemini**, uma ferramenta que auxilia no desenvolvimento, análise e suporte das funcionalidades do framework, facilitando a implementação e manutenção do código.
+
+---
+
 ## Requisitos
 
 - PHP 8.1 ou superior
@@ -40,7 +45,7 @@ Projetado para oferecer uma estrutura robusta, flexível e escalável para desen
 
    ```bash
    git clone https://github.com/Natanaelpvh/GestorSystem.git
-   ```
+
 
 2. Configure o banco de dados no arquivo `config.php`.
 
