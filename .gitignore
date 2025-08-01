@@ -1,0 +1,23 @@
+# Composer - Dependências
+/vendor/
+
+# Arquivo de Ambiente
+# Contém informações sensíveis e não deve ser versionado.
+.env
+
+# Arquivos de Cache
+# Ignora todos os arquivos dentro do diretório de cache de views,
+# mas mantém o diretório graças ao .gitkeep.
+/storage/cache/views/*
+!/storage/cache/views/.gitkeep
+
+# Arquivos de log (boa prática)
+*.log
+
+# Diretórios de IDEs e editores
+.idea/
+.vscode/
+
+# Arquivos gerados pelo Sistema Operacional
+.DS_Store
+Thumbs.db

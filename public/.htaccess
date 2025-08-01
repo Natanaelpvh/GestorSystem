@@ -1,0 +1,10 @@
+<IfModule mod_rewrite.c>
+    # Ativa o motor de reescrita de URL
+    RewriteEngine On
+
+    # Redireciona todas as requisições que não são para um arquivo ou diretório existente
+    # para o front-controller (index.php).
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule . index.php [L]
+</IfModule>
