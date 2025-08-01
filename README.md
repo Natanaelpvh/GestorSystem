@@ -6,9 +6,8 @@
 
 ## Descrição
 
-GestorSystem é um framework PHP moderno desenvolvido com **Programação Orientada a Objetos (POO)**, utilizando **PDO** para comunicação segura com banco de dados e suporte ao sistema **Gemini**.
-
-Projetado para oferecer uma estrutura robusta, flexível e escalável para desenvolvimento de aplicações web.
+GestorSystem é um framework PHP moderno desenvolvido com **Programação Orientada a Objetos (POO)**, utilizando **PDO** para garantir uma comunicação segura e eficiente com bancos de dados.  
+Projetado para entregar alta performance, flexibilidade e escalabilidade, emprega práticas avançadas e padrões de desenvolvimento que facilitam a manutenção e evolução das aplicações.
 
 ---
 
@@ -26,7 +25,7 @@ Projetado para oferecer uma estrutura robusta, flexível e escalável para desen
 
 ## Suporte Gemini
 
-Este projeto conta com o auxílio do **Gemini**, uma ferramenta que auxilia no desenvolvimento, análise e suporte das funcionalidades do framework, facilitando a implementação e manutenção do código.
+Este framework foi desenvolvido com o auxílio do **Gemini**, uma ferramenta que auxiliou no planejamento, desenvolvimento e análise do código, tornando o processo mais eficiente e seguro.
 
 ---
 
@@ -45,6 +44,7 @@ Este projeto conta com o auxílio do **Gemini**, uma ferramenta que auxilia no d
 
    ```bash
    git clone https://github.com/Natanaelpvh/GestorSystem.git
+
 
 
 2. Configure o banco de dados no arquivo `config.php`.
