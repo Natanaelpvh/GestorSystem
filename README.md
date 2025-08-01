@@ -78,5 +78,5 @@ composer install
 
 Caso tenha sugestões, dúvidas ou deseje colaborar, sinta-se à vontade para entrar em contato:
 
-📧 Email: natanaelpvh@gmail.com  
+📧 Email: rnh.personalizados@gmail.com  
 🔗 GitHub: [@Natanaelpvh](https://github.com/Natanaelpvh)
