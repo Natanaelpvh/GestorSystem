@@ -1,62 +1,41 @@
-
 # GestorSystem
 
-![PHP](https://img.shields.io/badge/PHP-8.1-blue)
-![PDO](https://img.shields.io/badge/PDO-Enabled-green)
-![License](https://img.shields.io/badge/License-MIT-lightgrey)
-
-## Descrição
-
-GestorSystem é um framework PHP moderno desenvolvido com **Programação Orientada a Objetos (POO)**, utilizando **PDO** para comunicação segura com banco de dados e suporte ao sistema **Gemini**.
-
-Projetado para oferecer uma estrutura robusta, flexível e escalável para desenvolvimento de aplicações web.
+**GestorSystem** é um framework PHP moderno, desenvolvido com foco em robustez, organização e escalabilidade. Ele oferece uma base sólida para a criação de sistemas web utilizando os princípios da Programação Orientada a Objetos (POO) e uma arquitetura limpa e padronizada.
 
 ---
 
-## Funcionalidades Principais
+## 🚀 Principais Características
 
-- Arquitetura MVC clara e modularizada
-- Conexão segura com banco de dados via PDO
-- Suporte integrado ao sistema Gemini
-- Tratamento de erros e exceções personalizado
-- Sistema de rotas simples e eficiente
-- Estrutura fácil de entender e ampliar
-- Documentação interna e externa para facilitar o uso
-
----
-
-## Suporte Gemini
-
-Este projeto conta com o auxílio do **Gemini**, uma ferramenta que auxilia no desenvolvimento, análise e suporte das funcionalidades do framework, facilitando a implementação e manutenção do código.
+- Estrutura modular seguindo o padrão **MVC (Model-View-Controller)**.
+- Autoload inteligente com **PSR-4**.
+- Separação clara entre lógica de negócio, exibição e controle.
+- Organização moderna de arquivos e pastas.
+- Suporte a múltiplas empresas (multi-tenant).
+- Pronto para expansão com novas funcionalidades.
 
 ---
 
-## Requisitos
+## 🧠 Padrões e Tecnologias Utilizadas
 
-- PHP 8.1 ou superior
-- Extensão PDO habilitada
-- Servidor web Apache, Nginx, ou similar
-- MySQL/MariaDB ou outro banco compatível com PDO
-
----
-
-## Instalação
-
-1. Clone o repositório:
-
-   ```bash
-   git clone https://github.com/Natanaelpvh/GestorSystem.git
-   ```
-
-2. Configure o banco de dados no arquivo `config.php`.
-
-3. Ajuste as permissões das pastas `storage/` e `logs/`.
-
-4. Inicie o servidor local (ex: XAMPP, WAMP, LAMP) e acesse via navegador.
+| Categoria             | Implementação                      |
+|-----------------------|------------------------------------|
+| Arquitetura           | MVC (Model-View-Controller)        |
+| Autoload              | PSR-4                              |
+| Conexão com Banco     | PDO com boas práticas de segurança |
+| Programação           | PHP 8+, Orientada a Objetos (OOP)  |
+| Estrutura             | Modular e escalável                |
+| Design de Projeto     | Separação de responsabilidades     |
+| Versionamento         | Git + GitHub                       |
 
 ---
 
-## Estrutura do Projeto
+## 🤖 Assistência de IA
+
+Este projeto contou com suporte inteligente da IA **Gemini**, que auxiliou no desenvolvimento estrutural e organizacional do framework, otimizando tempo e aplicando boas práticas do ecossistema PHP moderno.
+
+---
+
+## 📁 Estrutura de Diretórios
 
 ```
 GestorSystem/
@@ -66,45 +45,38 @@ GestorSystem/
 │   ├── Views/
 │   └── Core/
 ├── config/
-│   └── config.php
 ├── public/
 │   └── index.php
+├── routes.php
 ├── storage/
-│   └── logs/
+├── composer.json
+├── .env
 └── README.md
 ```
 
 ---
 
-## Uso
+## 📌 Requisitos
 
-- Crie seus controladores, modelos e views seguindo o padrão MVC.
-- Utilize as classes PDO para consultas seguras ao banco.
-- Aproveite os recursos do suporte Gemini para funcionalidades avançadas.
-
----
-
-## Contribuição
-
-Contribuições são bem-vindas!  
-Por favor, abra uma issue ou envie um pull request para melhorias, correções ou novas funcionalidades.
+- PHP 8.1 ou superior
+- Composer
+- Servidor local (Wamp, Xampp, Laragon ou similar)
 
 ---
 
-## Licença
+## ⚙️ Instalação
 
-Este projeto está licenciado sob a [MIT License](LICENSE).
-
----
-
-## Contato
-
-Natanael S. de Oliveira  
-📧 Email: seuemail@exemplo.com  
-🌐 GitHub: [https://github.com/Natanaelpvh](https://github.com/Natanaelpvh)
+```bash
+git clone https://github.com/Natanaelpvh/GestorSystem.git
+cd GestorSystem
+composer install
+```
 
 ---
 
-<p align="center">
-  🚀 Desenvolvido com ❤️ por Natanael S. de Oliveira
-</p>
+## 📫 Contato
+
+Caso tenha sugestões, dúvidas ou deseje colaborar, sinta-se à vontade para entrar em contato:
+
+📧 Email: natanaelpvh@gmail.com  
+🔗 GitHub: [@Natanaelpvh](https://github.com/Natanaelpvh)
